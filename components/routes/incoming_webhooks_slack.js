@@ -5,6 +5,7 @@ module.exports = function(webserver_slack, controller_slack) {
     debug('Configured /slack/receive url');
     webserver_slack.post('/slack/receive', function(req, res) {
 
+
         // respond to Slack that the webhook has been received.
         res.status(200);
 
@@ -14,4 +15,3 @@ module.exports = function(webserver_slack, controller_slack) {
 
     });
 }
-

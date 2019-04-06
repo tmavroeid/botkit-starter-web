@@ -25,7 +25,7 @@ module.exports = function(controller) {
 
     server.listen(process.env.PORT || 3000, null, function() {
 
-        debug('Express webserver configured and listening at http://localhost:' + process.env.PORT || 3000);
+        debug('Express webserver configured and listening from Pepper at http://localhost:' + process.env.PORT || 3000);
 
     });
 

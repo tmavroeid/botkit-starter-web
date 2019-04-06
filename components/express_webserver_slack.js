@@ -33,7 +33,7 @@ module.exports = function(controller_slack) {
 
     server.listen(3001, null, function() {
 
-        console.log('Express webserver for slack configured and listening at http://localhost:' + 3001);
+        console.log('Express webserver for slack configured and listening from Slack at http://localhost:' + 3001);
 
     });
     // import all the pre-defined routes that are present in /components/routes
